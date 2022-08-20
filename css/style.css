@@ -1,0 +1,134 @@
+
+body {
+    color: #fff;
+    font-family:  sans-serif;
+    background-image: url("../image/lemon.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+header .logo {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 6%;
+}
+
+section.first {
+    background-image: url('/image/lemon.jpg');
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-left: 10%;
+}
+section.img_test {
+    background-image: url("../image/lemon.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.first span {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+section h1 {
+    font-size: 58px;
+}
+
+.first p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    color: #222;
+    width: 480px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 9px;
+    padding: 25px;
+    margin-top: 4%;
+}
+
+form label {
+    color: royalblue;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+input#texts {
+    border: 2px solid #f0f0f0;
+    border-radius: 9px;
+    width: 250PX;
+    padding-left: 10px;
+}
+
+
+input#btn{
+    margin-left: 20px;
+    margin-top: 28px;
+    width: 150px;
+    border: none;
+    border-radius: 9px;
+    background-color: orange;
+    color: #fff;
+    
+    font-weight: bold;
+    padding: 4px 20px;
+}
+
+input#btn:hover{
+    background-color: #343434;
+
+}
+
+
+form p {
+    color: orange;
+    
+}
+
+.image-text {
+    display: flex;
+}
+
+section.second {
+padding-bottom: 3em;
+}
+
+.image img {
+    width: 200%;
+}
+
+.text p {
+    text-align: center;
+}
+
+.image img {
+    width: 100%;
+}
+
+.second {
+    background-color: #fff;
+}
+
+.second h2 {
+    padding-left: 20px;
+    padding-top: 15%;
+    
+    color: #000000;
+}
+
+.second p {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: #000000;
+}
